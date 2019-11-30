@@ -10,12 +10,12 @@ package com.codenjoy.dojo.snake.client;
  * it under the terms of the GNU General Public License as
  * published by the Free Software Foundation, either version 3 of the
  * License, or (at your option) any later version.
- * 
+ *
  * This program is distributed in the hope that it will be useful,
  * but WITHOUT ANY WARRANTY; without even the implied warranty of
  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  * GNU General Public License for more details.
- * 
+ *
  * You should have received a copy of the GNU General Public
  * License along with this program.  If not, see
  * <http://www.gnu.org/licenses/gpl-3.0.html>.
@@ -110,11 +110,11 @@ public class Board extends AbstractBoard<Elements> {
     @Override
     public String toString() {
         return String.format("Board:\n%s\n" +
-            "Apple at: %s\n" +
-            "Stones at: %s\n" +
-            "Head at: %s\n" +
-            "Snake at: %s\n" +
-            "Current direction: %s",
+                        "Apple at: %s\n" +
+                        "Stones at: %s\n" +
+                        "Head at: %s\n" +
+                        "Snake at: %s\n" +
+                        "Current direction: %s",
                 boardAsString(),
                 getApples(),
                 getStones(),
